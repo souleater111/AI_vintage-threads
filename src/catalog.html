@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Vintage Threads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Vintage Threads</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html" class="active">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <div class="burger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Наш каталог</h1>
+        <p>Тщательно отобранные винтажные вещи</p>
+    </section>
+
+    <section class="catalog">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="jackets">Куртки</button>
+            <button class="filter-btn" data-filter="shirts">Рубашки</button>
+            <button class="filter-btn" data-filter="jeans">Джинсы</button>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card" data-category="jackets">
+                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400" alt="Винтажная куртка">
+                <h3>Кожаная куртка 80-х</h3>
+                <p class="price">8 500 ₽</p>
+                <button class="btn-small">Подробнее</button>
+            </div>
+            <div class="product-card" data-category="shirts">
+                <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400" alt="Винтажная рубашка">
+                <h3>Рубашка в стиле 70-х</h3>
+                <p class="price">3 200 ₽</p>
+                <button class="btn-small">Подробнее</button>
+            </div>
+            <div class="product-card" data-category="jeans">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400" alt="Винтажные джинсы">
+                <h3>Джинсы Levi's 501</h3>
+                <p class="price">6 800 ₽</p>
+                <button class="btn-small">Подробнее</button>
+            </div>
+            <div class="product-card" data-category="jackets">
+                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400" alt="Винтажный пиджак">
+                <h3>Пиджак в клетку</h3>
+                <p class="price">5 500 ₽</p>
+                <button class="btn-small">Подробнее</button>
+            </div>
+            <div class="product-card" data-category="shirts">
+                <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400" alt="Винтажная рубашка">
+                <h3>Фланелевая рубашка</h3>
+                <p class="price">2 900 ₽</p>
+                <button class="btn-small">Подробнее</button>
+            </div>
+            <div class="product-card" data-category="jeans">
+                <img src="https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=400" alt="Винтажные джинсы">
+                <h3>Джинсы mom-fit</h3>
+                <p class="price">4 700 ₽</p>
+                <button class="btn-small">Подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Vintage Threads. Медкид и Дмитрий. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
